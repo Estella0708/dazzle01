@@ -233,6 +233,7 @@
   box-shadow: 5px 5px 0 var(--blue);
 }
 .event .sec_line > a .ev04 .p02 {
+  font-size: 18px;
 }
 .event .sec_line > a .ev04 .arrow {
   background: url(../../images/ev04_arrow.png) no-repeat center;
