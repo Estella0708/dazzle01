@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/* 티몬 */
+@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff");
+@font-face {
+  font-family: "Tmon";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+/* 숙명 눈꽃 */
+@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/2409-2@1.0/SMUSnowflake-Regular.woff2");
+@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/2409-2@1.0/SMUSnowflake-Bold.woff2");
+@font-face {
+  font-family: "Sukmyung";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2409-2@1.0/SMUSnowflake-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sukmyung";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2409-2@1.0/SMUSnowflake-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+/* 사천항공 */
+@import url("https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/SacheonHangGong-Regular.woff2");
+@font-face {
+  font-family: "Sacheonhanggong";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2506-1@1.0/SacheonHangGong-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
