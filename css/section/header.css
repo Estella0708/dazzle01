@@ -173,10 +173,11 @@
   overflow: hidden;
   filter: grayscale(1);
   margin-right: 30px;
+  transition: all 0.5s;
 }
-.banner .b_box.first {
+/* .banner .b_box.first {
   width: 956px;
-}
+} */
 .banner .b_box:last-child {
   margin-right: 0;
 }
@@ -191,7 +192,7 @@
   object-fit: cover;
 }
 .banner .b_box.active {
-  /* width: 956px; */
+  width: 956px;
   filter: grayscale(0);
   object-fit: cover;
 }

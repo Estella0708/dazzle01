@@ -231,12 +231,14 @@
               <div class="ev03">
                 <p class="p01">pop-up store open!!</p>
                 <p class="p02">일정 확인하러 가기</p>
+                <div class="arrow"></div>
               </div>
             </a>
             <a href="#">
               <div class="ev04">
                 <p class="p01">입점문의</p>
                 <p class="p02">고객센터 바로가기</p>
+                <div class="arrow"></div>
               </div>
             </a>
             </div>
@@ -335,8 +337,8 @@
         first.removeClass("active");
         next.addClass("active");
 
-        $(".b_box").stop().animate({width:"144px"},1000);
-        $(".b_box.active").stop().animate({width:"956px"},1000);
+        // $(".b_box").stop().animate({width:"144px"},1000);
+        // $(".b_box.active").stop().animate({width:"956px"},1000);
       }
 
       setInterval(playSlide,2000)
