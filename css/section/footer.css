@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+#footer {
+  width: 100%;
+  height: 450px;
+  background: url(../../images/f_bg.png);
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  margin-top: 400px;
+}
+#footer .cs_center {
+  padding-top: 53px;
+  padding-bottom: 10px;
+}
+#footer .company {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#footer .company > p {
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin-right: 30px;
+}
+#footer .company > p > a {
+  font-weight: bold;
+}
+#footer .company > p:nth-of-type(5) {
+  margin-right: 0;
+}
+#footer .company > p > span {
+  text-transform: capitalize;
+}
+#footer .company > p:nth-of-type(6) > span {
+  text-transform: lowercase;
+}
+#footer .copy {
+  width: 690px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 50px auto;
+  padding: 30px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+#footer .copy > a {
+  margin-right: 50px;
+}
+#footer .copy > a:last-child {
+  margin-right: 0;
+}
+#footer .sns {
+}
+#footer .sns a {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  margin-right: 50px;
+}
+#footer .sns a.insta {
+  background: url(../../images/instagram_white.png) no-repeat center/80px;
+  transition: background 0.3s;
+}
+#footer .sns a.kakao {
+  background: url(../../images/kakao_white.png) no-repeat center/80px;
+  transition: background 0.3s;
+}
+#footer .sns a.naver {
+  background: url(../../images/naver_white.png) no-repeat center/80px;
+  transition: background 0.3s;
+}
+#footer .sns a.youtube {
+  background: url(../../images/youtube_white.png) no-repeat center/80px;
+  margin-right: 0;
+  transition: background 0.3s;
+}
+#footer .sns a.insta:hover {
+  background: url(../../images/instagram_pink.png) no-repeat center/80px;
+}
+#footer .sns a.kakao:hover {
+  background: url(../../images/kakao_pink.png) no-repeat center/80px;
+}
+#footer .sns a.naver:hover {
+  background: url(../../images/naver_pink.png) no-repeat center/80px;
+}
+#footer .sns a.youtube:hover {
+  background: url(../../images/youtube_pink.png) no-repeat center/80px;
+  margin-right: 0;
+}
