@@ -6,6 +6,10 @@
 }
 .contents02 .shop {
   color: var(--mainMenu-color);
+  display: flex;
+  flex-wrap: wrap;
+  width: 1920px;
+  height: auto;
 }
 .contents02 .shop .gift .shop_title {
   font-family: var(--mainMenu-font);
@@ -17,16 +21,29 @@
   border-radius: 50%;
   /* overflow: hidden; */
 }
-.contents02 .shop .gift > img {
+.contents02 .shop .gift img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+}
+.contents02 .shop .gift .gift_img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.contents02 .shop .gift:hover img {
+  transform: scale(1.3);
+}
+.contents02 .shop .gift h2.shop_title {
+  margin-top: 20px;
 }
 .contents02 .shop .gift .shop_text {
   width: 300px;
   height: 100px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 3px 5px;
+  margin-top: 30px;
 }
 
 /* shop 01 */
@@ -34,15 +51,22 @@
   width: 838px;
   height: 667px;
   background: url(../../images/store_bg_1.png) no-repeat center/838px 667px;
+  margin-right: 211px;
+  position: relative;
 }
 .contents02 .shop .shop01 .gift {
-  margin-left: 535px;
+  position: absolute;
+  width: 318px;
+  height: 318px;
+  left: 535px;
 }
 .contents02 .shop .shop01 .gift > img {
 }
 .contents02 .shop .shop01 .gift > h2.shop_title {
+  margin-top: 20px;
 }
 .contents02 .shop .shop01 .gift > div.shop_text {
+  margin-top: 30px;
 }
 .contents02 .shop .shop01 .gift > div.shop_text > p.st01 {
 }
@@ -54,14 +78,24 @@
   width: 871px;
   height: 859px;
   background: url(../../images/store_bg_2.png) no-repeat center/871px 859px;
+  margin-top: 95px;
+  position: relative;
 }
-.contents02 .shop .shop02 > a {
+.contents02 .shop .shop02 .gift {
+  position: absolute;
+  width: 318px;
+  height: 318px;
+  top: 274px;
+  right: 332px;
 }
-.contents02 .shop .shop02 .gift {}
-.contents02 .shop .shop02 .gift > img {}
-.contents02 .shop .shop02 .gift > h2.shop_title {}
-.contents02 .shop .shop02 .gift > div.shop_text {}
-.contents02 .shop .shop02 .gift > div.shop_text > p.st01 {}
+.contents02 .shop .shop02 .gift > img {
+}
+.contents02 .shop .shop02 .gift > h2.shop_title {
+}
+.contents02 .shop .shop02 .gift > div.shop_text {
+}
+.contents02 .shop .shop02 .gift > div.shop_text > p.st01 {
+}
 .contents02 .shop .shop02 .gift > div.shop_text > p.st02 {
 }
 
@@ -70,8 +104,16 @@
   width: 924px;
   height: 644px;
   background: url(../../images/store_bg_3.png) no-repeat center/974px 644px;
+  margin-right: 63px;
+  margin-top: -184px;
+  position: relative;
 }
 .contents02 .shop .shop03 .gift {
+  position: absolute;
+  width: 318px;
+  height: 318px;
+  top: 66px;
+  left: 453px;
 }
 .contents02 .shop .shop03 .gift > img {
 }
@@ -89,8 +131,15 @@
   width: 933px;
   height: 544px;
   background: url(../../images/store_bg_4.png) no-repeat center/933px 544px;
+  margin-top: 80px;
+  position: relative;
 }
 .contents02 .shop .shop04 .gift {
+  position: absolute;
+  width: 318px;
+  height: 318px;
+  top: 196px;
+  right: 522px;
 }
 .contents02 .shop .shop04 .gift > img {
 }
@@ -101,4 +150,15 @@
 .contents02 .shop .shop04 .gift > div.shop_text > p.st01 {
 }
 .contents02 .shop .shop04 .gift > div.shop_text > p.st02 {
+}
+
+/* 구분선 */
+
+.line {
+  width: 1920px;
+  height: auto;
+  margin-top: 306px;
+  margin-bottom: 150px;
+}
+.line .center_line {
 }
