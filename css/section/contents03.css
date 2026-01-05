@@ -33,6 +33,7 @@
   background-color: var(--navy);
   border-radius: 35px;
   margin: 35px 0 0 910px;
+  transition: all 0.3s;
 }
 .contents03 .v_link > a {
   display: block;
@@ -50,4 +51,7 @@
 }
 .contents03 .v_link > a > img {
   width: 90px;
+}
+.contents03 .v_link:hover {
+  background-color: var(--pink);
 }
