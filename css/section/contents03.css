@@ -22,10 +22,145 @@
   width: 690px;
   height: 415px;
 }
+.contents03 .video > div > video {
+  width: 690px;
+  height: 415px;
+  cursor: pointer;
+}
 .contents03 .video .video_01 {
   margin-right: 40px;
 }
+
+.contents03 .v_link {
+  width: 400px;
+  height: 70px;
+  background-color: var(--navy);
+  border-radius: 35px;
+  margin: 35px 0 0 910px;
+  transition: all 0.3s;
+}
+
+.contents03 .v_link > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contents03 .v_link > a > p {
+  font-family: var(--eventDiff-font);
+  color: #fff;
+  font-size: 26px;
+  /* margin-right: 20px; */
+  margin-right: 50px;
+}
+/* .contents03 .v_link > a > img {
+  width: 90px;
+} */
+.contents03 .v_link > a > i {
+  font-size: 35px;
+  color: #fff;
+}
+.contents03 .v_link:hover {
+  background-color: var(--pink);
+}
+.contents03 .v_link:hover > a > p {
+  color: var(--navy100);
+}
+.contents03 .v_link:hover > a > i {
+  color: var(--navy100);
+}
+/* .contents03 .video .video_01 {
+  margin-right: 40px;
+  position: relative;
+}
+.contents03 .video .video_01 .v_icon {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+}
+.contents03 .video .video_01:hover .v_icon {
+  opacity: 1;
+  pointer-events: none;
+}
+.contents03 .video .video_01.paused:hover .v_icon {
+  opacity: 0;
+  pointer-events: none;
+}
+.contents03 .video .video_01::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 690px;
+  height: 415px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+.contents03 .video .video_01:hover::before {
+  opacity: 1;
+  pointer-events: none;
+}
+.contents03 .video .video_01.paused:hover::before {
+  opacity: 0;
+  pointer-events: none;
+}
+.contents03 .video .video_02.playing::before {
+  display: none;
+}
 .contents03 .video .video_02 {
+  position: relative;
+}
+.contents03 .video .video_02 .v_icon {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+}
+.contents03 .video .video_02:hover .v_icon {
+  opacity: 1;
+  pointer-events: none;
+}
+.contents03 .video .video_02.paused:hover .v_icon {
+  opacity: 0;
+  pointer-events: none;
+}
+.contents03 .video .video_02::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 690px;
+  height: 415px;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+.contents03 .video .video_02.playing::before {
+  display: none;
+}
+.contents03 .video .video_02:hover::before {
+  opacity: 1;
+  pointer-events: none;
+}
+.contents03 .video .video_02.paused:hover::before {
+  opacity: 1;
+  pointer-events: none;
 }
 .contents03 .v_link {
   width: 400px;
@@ -35,10 +170,11 @@
   margin: 35px 0 0 910px;
   transition: all 0.3s;
 }
+
 .contents03 .v_link > a {
   display: block;
-  width: 400px;
-  height: 70px;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,4 +190,4 @@
 }
 .contents03 .v_link:hover {
   background-color: var(--pink);
-}
+} */

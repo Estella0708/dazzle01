@@ -10,32 +10,40 @@
   <body>
     <header id="header">
       <div class="header_inner clearfix">
-        <div class="header_Tmenu clearfix">
-          <ul class="topmenu">
-            <li><a href="#">login</a></li>
-            <li><a href="#">join</a></li>
-            <li><a href="#">cart</a></li>
-            <li><a href="#">order</a></li>
-          </ul>
-        </div>
-        <!-- topmenu -->
-        <div class="header_search">
-          <input type="search" name="search" value="" title="" />
-          <!-- input type=”search” name=”search” value=”” title=”일부 브라우저에서는 입력 폼의 모양이 검색 창처럼 표시된다.” -->
-          <div class="s_icon">
-            <img src="./images/search_p.png" alt="돋보기아이콘" />
+        <div class="logo_top">
+          <div class="header_logo">
+              <a href="index.html">
+                <img src="./images/logo_color.png" alt="로고이미지" />
+              </a>
+              <div class="sub_logo">
+                <img src="./images/u_logo.png" alt="서브로고" />
+              </div>
+            </div>
           </div>
-        </div>
-        <!-- 검색창 -->
-        <div class="header_logo">
-          <a href="index.html">
-            <img src="./images/logo_color.png" alt="로고이미지" />
-          </a>
-          <div class="sub_logo">
-            <img src="./images/u_logo.png" alt="서브로고" />
+          <!-- logo -->
+          <div class="top clearfix">
+            <div class="header_search">
+              <input type="search" name="search" value="" title="" />
+              <!-- input type=”search” name=”search” value=”” title=”일부 브라우저에서는 입력 폼의 모양이 검색 창처럼 표시된다.” -->
+              <div class="s_icon">
+                <img src="./images/search_p.png" alt="돋보기아이콘" />
+              </div>
+            </div>
+            <!-- 검색창 -->
+            <div class="header_Tmenu clearfix">
+              <ul class="topmenu">
+                <li><a href="#">login</a></li>
+                <li><a href="#">join</a></li>
+                <li><a href="#">cart</a></li>
+                <li><a href="#">order</a></li>
+              </ul>
+            </div>
+            <!-- topmenu -->
           </div>
+          <!-- top section -->
+          
         </div>
-        <!-- logo -->
+        <!-- logo top section -->
         <div class="main_nav">
           <div class="nav_box">
             <ul class="header_nav">
@@ -334,10 +342,24 @@
             <iframe width="690" height="415" src="https://www.youtube.com/embed/2R3djDrtXPI" title="해외에서 유행하는 거미줄 물방울 악세서리 만들기! #레진아트" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
+          <!-- <div class="video_01 paused">
+            <video poster="./images/v_01_sum.jpg" id="" src="./images/v_01.mp4" type="video/mp4"></video>
+            <div class="v_icon">
+              <img src="./images/youtube_pink.png" alt="">
+            </div>
+          </div>
+          <div class="video_02 paused">
+            <video poster="./images/v_02_sum.jpg" id="" src="./images/v_02.mp4" type="video/mp4"></video>
+            <div class="v_icon">
+              <img src="./images/youtube_pink.png" alt="">
+            </div>
+          </div>
+        </div> -->
         <div class="v_link">
           <a href="#">
             <p>유투브 채널 바로가기</p>
-            <img src="./images/v_arrow.png" alt="바로가기 화살표">
+            <!-- <img src="./images/v_arrow.png" alt="바로가기 화살표"> -->
+            <i class="fa-solid fa-arrow-right-long"></i>
           </a>
         </div>
       </section>
@@ -426,5 +448,52 @@
       })
     </script>
     <!-- notice 버튼 이벤트 -->
+    
+    <!-- <script>
+      const video01 = $(".video_01>video")
+      const video02 = $(".video_02>video")
+
+      video01.click(function(){
+        let vBox01 = $(this).find("video")[0]
+        let posterImg01 = $(vBox01).data("poster")
+
+        if (vBox01.paused){
+          vBox01.play();
+          vBox01.removeAttr("poster")
+          $(this).addClass("playing").removeClass("paused")
+        }else {
+          vBox01.pause()
+          vBox01.setAttribute("poster",posterImg01)
+          $(this).removeClass("playing").addClass("paused")
+        }
+      })
+
+      video02.click(function(){
+        let vBox02 = $(this).find("video")[0]
+        let posterImg02 = $(vBox02).data("poster")
+
+        if(vBox02.paused){
+          vBox02.play()
+          $(this).addClass("playing").removeClass("paused")
+        }
+      })
+    </script> -->
+    <script>
+      const video01 = $(".video_01")
+      const video02 = $(".video_02")
+
+      video01.click(function(){
+        let vPlay = $(this).find("video")[0]
+
+        if (vPlay.paused){
+          vPlay.play()
+          $(this).addClass("paused")
+        } else {
+          vPlay.pause()
+          $(this).removeClass("paused")
+        }
+      })
+    </script>
+    <!-- video 마우스 클릭 이벤트 -->
   </body>
 </html>
